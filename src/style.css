@@ -13,8 +13,8 @@ h1 {
 }
 h2 {
   position: relative;
-  top: 70px;
-  left: -10px;
+  top: 90px;
+  left: -30px;
   font-size: 20px;
   transform: rotate(-45deg);
 }
@@ -66,17 +66,24 @@ a {
 .clock {
   position: relative;
   left: -25px;
-  top: 30px;
+  top: 10px;
 }
 .procent {
+  font-size: 18px;
   position: relative;
   left: -10px;
-  top: 55px;
+  top: 15px;
 }
 .kilometers {
+  font-size: 18px;
   position: relative;
-  top: 80px;
-  left: 10px;
+  top: 20px;
+  left: -9px;
+}
+.position {
+  position: relative;
+  top: -150px;
+  left: 220px;
 }
 
 .box {
@@ -138,11 +145,23 @@ a {
   right: 30px;
 }
 #icon {
-  opacity: 0.5;
+  opacity: 0.6;
   position: relative;
   bottom: 130px;
   left: 150px;
 }
 .active {
   color: black;
+}
+.forecast-weather {
+  transform: rotate(-45deg);
+  margin-top: 20px;
+  text-align: center;
+  position: relative;
+  left: 150px;
+  bottom: 360px;
+  font-size: 18px;
+}
+#icon2 {
+  opacity: 0.6;
 }
