@@ -39,7 +39,7 @@
               />
             </div>
             <div class="col-5">
-              <input type="submit" value="👀" class="searching" />
+              <input type="submit" value="☜" class="searching" />
             </div>
           </div>
         </form>
@@ -53,11 +53,11 @@
         <div class="row">
           <div class="col-6">
             <ul class="first-info">
-              <li class="clock" id="time">Monday 00:00</li>
-              <li class="procent">Humidity <span id="humidity"></span>%</li>
+              <li class="clock" id="time">Monday 13:55</li>
+              <li class="procent">Humidity <span id="humidity">50</span>%</li>
               <li class="kilometers">
                 Wind
-                <span id="wind"></span>km/h
+                <span id="wind">6</span>km/h
               </li>
             </ul>
           </div>
@@ -74,16 +74,69 @@
                   alt=""
                   id="icon"
                 />
-                <p class="weather" id="type">Weather</p>
+                <p class="weather" id="type">Cloudy</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="forecast-weather" id="forecast"></div>
+        <div class="forecast-weather" id="forecast">
+          <div class="row">
+            <div class="col-2">
+              <div class="forecast-date">wed</div>
+              <img
+                src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png"
+                alt=""
+                width="65px"
+              />
+              <div class="forecast-temp">
+                <span class="max-temp"><strong> 9°</strong></span
+                ><span class="min-temp"> 14°</span>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="forecast-date">thu</div>
+              <img
+                src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png"
+                alt=""
+                width="65px"
+              />
+              <div class="forecast-temp">
+                <span class="max-temp"><strong> 12°</strong></span
+                ><span class="min-temp"> 10°</span>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="forecast-date">fri</div>
+              <img
+                src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png"
+                alt=""
+                width="65px"
+              />
+              <div class="forecast-temp">
+                <span class="max-temp"><strong> 14°</strong></span
+                ><span class="min-temp"> 13°</span>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="forecast-date">sat</div>
+              <img
+                src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png"
+                alt=""
+                width="65px"
+              />
+              <div class="forecast-temp">
+                <span class="max-temp"><strong> 15°</strong></span
+                ><span class="min-temp"> 9°</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="source-code">
         <small>
-          <a href="https://github.com/RuRi-Code-Cloud/app" target="_blank"
+          <a
+            href="https://github.com/RuRi-Code-Cloud/forecast-app"
+            target="_blank"
             >Open-source code</a
           >
           by Rita Rudzite

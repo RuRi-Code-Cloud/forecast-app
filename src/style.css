@@ -17,9 +17,10 @@ h2 {
   left: -30px;
   font-size: 20px;
   transform: rotate(-45deg);
+  color: rgb(37, 70, 97);
 }
 a {
-  color: rgb(211, 92, 62);
+  color: rgb(255, 112, 76);
   text-decoration: none;
 }
 #background-video {
@@ -41,7 +42,7 @@ a {
 .weather {
   position: relative;
   bottom: 155px;
-  left: 80px;
+  left: 50px;
   font-size: 25px;
 }
 .first-info {
@@ -69,16 +70,14 @@ a {
   top: 10px;
 }
 .procent {
-  font-size: 18px;
   position: relative;
   left: -10px;
   top: 15px;
 }
 .kilometers {
-  font-size: 18px;
   position: relative;
   top: 20px;
-  left: -9px;
+  left: 12px;
 }
 .position {
   position: relative;
@@ -145,7 +144,6 @@ a {
   right: 30px;
 }
 #icon {
-  opacity: 0.6;
   position: relative;
   bottom: 130px;
   left: 150px;
@@ -158,10 +156,16 @@ a {
   margin-top: 20px;
   text-align: center;
   position: relative;
-  left: 140px;
-  bottom: 350px;
+  left: 160px;
+  bottom: 370px;
   font-size: 18px;
 }
-#icon2 {
-  opacity: 0.6;
+.forecast-date {
+  position: relative;
+  bottom: -10px;
+}
+.max-temp,
+.min-temp {
+  position: relative;
+  bottom: 10px;
 }
