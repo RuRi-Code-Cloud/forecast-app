@@ -1,0 +1,148 @@
+body {
+  display: block;
+  color: rgb(253, 249, 249);
+  font-family: "Raleway Dots";
+  font-size: 25px;
+}
+h1 {
+  position: relative;
+  top: 90px;
+  left: -40px;
+  font-size: 40px;
+  transform: rotate(-45deg);
+}
+h2 {
+  position: relative;
+  top: 70px;
+  left: -10px;
+  font-size: 20px;
+  transform: rotate(-45deg);
+}
+a {
+  color: rgb(211, 92, 62);
+  text-decoration: none;
+}
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.word {
+  position: relative;
+  bottom: 80px;
+  left: 40px;
+}
+.weather {
+  position: relative;
+  bottom: 155px;
+  left: 80px;
+  font-size: 25px;
+}
+.first-info {
+  list-style: none;
+  transform: rotate(-45deg);
+  position: relative;
+  top: 150px;
+  left: 40px;
+  font-size: 20px;
+}
+.second-info {
+  position: relative;
+  left: 15px;
+  transform: rotate(-45deg);
+}
+.temperature {
+  font-size: 110px;
+  position: relative;
+  left: 50px;
+  bottom: 30px;
+}
+.clock {
+  position: relative;
+  left: -25px;
+  top: 30px;
+}
+.procent {
+  position: relative;
+  left: -10px;
+  top: 55px;
+}
+.kilometers {
+  position: relative;
+  top: 80px;
+  left: 10px;
+}
+
+.box {
+  position: relative;
+  top: 100px;
+  margin: 0 auto;
+  padding: 30px;
+  width: 500px;
+  height: 500px;
+  border-radius: 0 50% 50% 50%;
+  border: 0.5px solid black;
+  transform: rotate(45deg);
+  margin-top: 20px;
+  border-style: solid;
+  border-color: rgb(145, 168, 170);
+  background: rgb(98, 152, 154);
+  background: radial-gradient(
+    circle,
+    rgba(98, 152, 154, 0.5706984667802385) 19%,
+    rgba(238, 181, 174, 0.606473594548552) 100%
+  );
+
+  box-shadow: rgba(101, 138, 183, 0.17) 0px -23px 25px 0px inset,
+    rgba(68, 96, 122, 0.15) 0px -36px 30px 0px inset,
+    rgba(100, 137, 176, 0.222) 0px -79px 40px 0px inset,
+    rgba(73, 106, 137, 0.06) 0px 2px 1px, rgba(64, 92, 111, 0.302) 0px 4px 2px,
+    rgba(53, 81, 96, 0.23) 0px 8px 4px, rgba(66, 95, 117, 0.09) 0px 16px 8px,
+    rgba(38, 63, 72, 0.09) 0px 32px 16px;
+}
+.source-code {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  bottom: -120px;
+  right: 60px;
+}
+
+#search-form {
+  transform: rotate(-45deg);
+  position: relative;
+  right: 50px;
+}
+
+.searching {
+  background-color: rgba(246, 207, 183, 0.397);
+  border: 0.5px solid rgba(255, 253, 253, 0.606);
+  border-radius: 20px;
+  position: relative;
+  top: 40px;
+  right: 30px;
+  color: rgba(240, 248, 255, 0.55);
+}
+
+#text {
+  background-color: rgba(246, 207, 183, 0.397);
+  color: white;
+  position: relative;
+  top: 40px;
+  right: 30px;
+}
+#icon {
+  opacity: 0.5;
+  position: relative;
+  bottom: 130px;
+  left: 150px;
+}
+.active {
+  color: black;
+}
